@@ -1,0 +1,11 @@
+{
+  "name": "TwinSim",
+  "short_name": "TwinSim",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ],
+  "theme_color": "#12100E",
+  "background_color": "#12100E",
+  "display": "standalone"
+}

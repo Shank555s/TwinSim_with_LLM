@@ -1,0 +1,11 @@
+# TwinSim backend
+fastapi>=0.110
+uvicorn>=0.29
+pydantic>=2.6
+numpy>=1.26
+psutil>=5.9            # optional: RAM detection
+torch>=2.2             # primary model backend (CPU or CUDA build). Without it TwinSim falls back to the NumPy reference backend.
+
+# tests
+pytest>=8
+httpx>=0.27            # FastAPI TestClient

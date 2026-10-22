@@ -1,0 +1,10 @@
+node_modules/
+dist/
+runtime/
+__pycache__/
+*.pyc
+.pytest_cache/
+backend/data/corpus/*
+!backend/data/corpus/README.md
+backend/data/persona_data/*
+!backend/data/persona_data/README.md
